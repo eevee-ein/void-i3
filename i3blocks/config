@@ -1,0 +1,22 @@
+[CPU_USAGE]
+command=~/.config/i3blocks/cpu_usage/cpu_usage
+interval=1
+LABEL=  
+color=#FFFFFF
+
+[memory]
+label=  
+command=~/.config/i3blocks/memory/memory
+interval=1
+color=#FFFFFF
+
+[volume-pipewire]
+command=~/.config/i3blocks/volume-pipewire/volume-pipewire
+interval=persist
+SUBSCRIBE=1
+color=#FFFFFF
+
+[TIME_DATE]
+command=date +"%a, %d %b - %H:%M:%S"
+interval=1
+color=#FFFFFF
